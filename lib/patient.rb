@@ -10,6 +10,6 @@ class Patient
   end
   
   def new_appointment
-    Appointment
+    Appointment.new()
   
 end
